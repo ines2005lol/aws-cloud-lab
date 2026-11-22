@@ -1,0 +1,25 @@
+# SSH private keys / key pairs
+*.pem
+*.ppk
+*.key
+id_rsa*
+id_ed25519*
+
+# AWS credentials and local config
+.aws/
+credentials
+*.csv
+.env
+.env.*
+
+# Terraform state (in case future labs use it)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
